@@ -1,4 +1,4 @@
-p1=int(input())
+p1=input()
 p1=list(p1)
 for i in p1:
    i=int(i)
