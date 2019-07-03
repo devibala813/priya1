@@ -1,6 +1,6 @@
-wer=int(input())
-while (wer>=0):
+wer1=int(input())
+while (wer1>=0):
    if(wer%10==0): 
-      print(wer)
+      print(wer1)
       break
-wer+=1
+wer1+=1
