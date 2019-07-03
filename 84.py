@@ -1,2 +1,2 @@
-ch=input()
-print(ord(ch))
+ch5=input()
+print(ord(ch5))
