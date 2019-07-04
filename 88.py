@@ -1,7 +1,7 @@
 p1,p2=map(int,input().split())
-x1=p1
-x2=p2
-while(p2):
-   p1,p2=p2,p1%p2
-y1=(x1*x2)//p1
-print(y1)
+maxima=max(p1,p2)
+while(1):
+   if(maxima%p1==0 and maxima%p2==0):
+         print(maxima)
+         break
+   maxima+=1
