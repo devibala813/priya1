@@ -4,4 +4,4 @@ s1=[]
 for i in list:
    if(int(i)%2!=0):
     s1.append(i)
-print(s1[n-1])
+print(s1[d-1])
