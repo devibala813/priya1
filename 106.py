@@ -1,7 +1,7 @@
 s,d=map(int,input().split())
 list=input().split()
-as=[]
+s1=[]
 for i in list:
    if(int(i)%2!=0):
-    as.append(i)
-print(as[n-1])
+    s1.append(i)
+print(s1[n-1])
